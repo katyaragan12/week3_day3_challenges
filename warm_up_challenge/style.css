@@ -9,10 +9,46 @@ _________ {
 }
 
 /* Record your solutions here:
-   #1 -
-   #2 - 
-   #3 - 
-   #4 -
-   #5 -
+   #1 - Using a descendant selector
+   div h1 {
+    font-family: Helvetica;
+    font-size: 300%;
+    color: #ffd63e;
+    text-align: center;
+}
+
+
+   #2 - using an id selector
+    #unique {
+    font-family: Helvetica;
+    font-size: 300%;
+    color: #ffd63e;
+    text-align: center;
+}
+
+   #3 - Using a tag selector
+    h1 {
+    font-family: Helvetica;
+    font-size: 300%;
+    color: #ffd63e;
+    text-align: center;
+}
+
+   #4 - Using an attribute selector
+    [h1] {
+    font-family: Helvetica;
+    font-size: 300%;
+    color: #ffd63e;
+    text-align: center;
+}
+
+   #5 - Using a direct descendant selector
+   div > h1 {
+    font-family: Helvetica;
+    font-size: 300%;
+    color: #ffd63e;
+    text-align: center;
+}
+
 
    e.g. - .pika               */
