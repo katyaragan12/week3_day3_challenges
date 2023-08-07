@@ -12,6 +12,8 @@ h1 {
 img {
     border: 5px solid #FFCB05;
     padding: 10px;
+    /* Scale down all the images by a factor of 0.5 (half the size) */
+    transform: scale(0.5);
 }
 
 ul {
@@ -30,6 +32,9 @@ ul {
     background-color: rgba(255, 255, 255, 0.5);
     font-size: 150%;
     padding: 20px;
+    display: flex; /* Use flexbox to display li elements side by side */
+    flex-wrap: wrap; /* Allow wrapping to maintain a responsive layout */
+    align-items: flex-start; /* Align the items (li elements) at the top */
 }
 
 #three {
@@ -41,8 +46,17 @@ ul {
     color: #FFCB05;
 }
 
-#raichu, #ash, #team_rocket {
-    height: 75px;
-    border: none;
-    padding-bottom: 0px;
+.raichu {
+    width: 100px;
+    height: 100px;
+}
+
+.ash {
+    width: 200px;
+    height: 200px;
+}
+
+.team-rocket-image {
+    width: 250px;
+    height: 200px;
 }
