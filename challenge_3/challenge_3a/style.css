@@ -1,15 +1,26 @@
 h1 {
 	font-family: Helvetica;
 	text-align: center;
-}
-
-img {
+  }
+  
+  img {
 	width: 100px;
-}
-
-div {
+	margin-right: 10px; /* Add spacing between images and paragraphs */
+  }
+  
+  div {
 	margin: auto;
-	width: 600px;
+	width: 620px; /* Increase the width to account for the border on both sides */
 	border: 5px solid black;
 	display: flex;
-}
+	flex-direction: row-reverse; /* Reverse the order of items and display them side by side */
+	align-items: center; /* Align items vertically in the main div */
+	justify-content: space-between; /* Add space between items */
+  }
+  
+  div > div {
+	display: flex; /* Nest a flex container inside the main div to align each image and paragraph pair horizontally */
+	align-items: center; /* Align images and paragraphs vertically within each nested div */
+	margin-bottom: 10px; /* Add spacing between each image-paragraph pair */
+  }
+  
