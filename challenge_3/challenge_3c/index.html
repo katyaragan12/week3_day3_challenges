@@ -4,31 +4,58 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <title>CHALLENGE 3C</title>
+    <style>
+        /* Your existing styles here */
+
+        #container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            border: 5px solid black;
+        }
+
+        #sub_div1,
+        #sub_div2,
+        #sub_div3 {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex: 1;
+        }
+
+        #sub_div2 {
+            justify-content: center;
+        }
+
+        #sub_div3 {
+            justify-content: flex-end;
+        }
+    </style>
 </head>
-
 <body>
-	<h1>CHALLENGE 3C</h1>
+    <h1>CHALLENGE 3C</h1>
 
-    <div id="big_div">
+    <div id="container">
         <div id="sub_div1">
             <img src="images/vaporeon.png">
-        	<img src="images/vaporeon.png">
+            <img src="images/vaporeon.png">
             <img src="images/vaporeon.png">
             <img src="images/vaporeon.png">
         </div>
 
         <div id="sub_div2">
-            <img src="images/jolteon.png">
-            <img src="images/jolteon.png">
-            <img src="images/jolteon.png">
-            <img src="images/jolteon.png">
+            <img src="images/flareon.png">
+            <img src="images/flareon.png">
+            <img src="images/flareon.png">
+            <img src="images/flareon.png">
         </div>
 
         <div id="sub_div3">
-            <img src="images/flareon.png">
-            <img src="images/flareon.png">
-            <img src="images/flareon.png">
-            <img src="images/flareon.png">
+            <img src="images/jolteon.png">
+            <img src="images/jolteon.png">
+            <img src="images/jolteon.png">
+            <img src="images/jolteon.png">
         </div>
     </div>
 </body>
